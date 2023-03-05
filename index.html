@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <script type="text/javascript" src="libaries/dat.gui.js"></script>
+    <script src="libaries/p5.min.js" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-  <script type="text/javascript" src="libaries/dat.gui.js"></script>
-  <script src="libaries/p5.min.js" type="text/javascript"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <script src="molecule.js" type="text/javascript"></script>
+    <script src="healthy.js" type="text/javascript"></script>
+    <script src="infected.js" type="text/javascript"></script>
+    <script src="vaccinator.js" type="text/javascript"></script>
+    <script src="immune.js" type="text/javascript"></script>
+    <script src="sketch.js" type="text/javascript"></script>
+  </head>
 
-  <script src="molecule.js" type="text/javascript"></script>
-  <script src="healthy.js" type="text/javascript"></script>
-  <script src="infected.js" type="text/javascript"></script>
-  <script src="vaccinator.js" type="text/javascript"></script>
-  <script src="immune.js" type="text/javascript"></script>
-  <script src="sketch.js" type="text/javascript"></script>
+  <body class="font">
+    <div style="margin: 20px, 20px">
+      <h1>COVID SIMULATOR</h1>
+      <h3>
+        To start the sim please select <b>loopState</b> under <b>Layout</b> in
+        the GUI.
+      </h3>
+    </div>
 
-
-
-
-</head>
-
-<body class="font">
-
-  <script src="gui.js" type="text/javascript"></script>
-
-</body>
-<style media="screen">
-.font{
-  font-family: 'Open Sans', sans-serif;
-}
-</style>
+    <script src="gui.js" type="text/javascript"></script>
+  </body>
+  <style media="screen">
+    .font {
+      font-family: "Open Sans", sans-serif;
+    }
+  </style>
 </html>
